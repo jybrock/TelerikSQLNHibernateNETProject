@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{C1DCC3CC-B950-47B9-B4CA-8BFFC380C775}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Components\Antlr3.Runtime.dll = ..\..\Components\Antlr3.Runtime.dll
+		..\..\Components\Castle.ActiveRecord.dll = ..\..\Components\Castle.ActiveRecord.dll
+		..\..\Components\Castle.ActiveRecord.Web.dll = ..\..\Components\Castle.ActiveRecord.Web.dll
+		..\..\Components\Castle.Components.Validator.dll = ..\..\Components\Castle.Components.Validator.dll
+		..\..\Components\Castle.Core.dll = ..\..\Components\Castle.Core.dll
+		..\..\Components\DropDownCheckBoxes.dll = ..\..\Components\DropDownCheckBoxes.dll
+		..\..\Components\Iesi.Collections.dll = ..\..\Components\Iesi.Collections.dll
+		..\..\Components\Interop.FREngine.dll = ..\..\Components\Interop.FREngine.dll
+		..\..\Components\log4net.dll = ..\..\Components\log4net.dll
+		..\..\Components\NHibernate.ByteCode.Castle.dll = ..\..\Components\NHibernate.ByteCode.Castle.dll
+		..\..\Components\NHibernate.dll = ..\..\Components\NHibernate.dll
+		..\..\Components\NHibernate.Search.dll = ..\..\Components\NHibernate.Search.dll
+		..\..\Components\Remotion.Data.Linq.dll = ..\..\Components\Remotion.Data.Linq.dll
+		..\..\Components\Telerik.Web.UI.dll = ..\..\Components\Telerik.Web.UI.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{346DC3B8-36B3-4FD7-9E80-12ECE2457E9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting", "{213AE7CA-2176-4409-B4BA-3C8545C539C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{89AFA978-18C7-4AC1-81CF-4983EB18EE20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6378B1B-1CF6-4D49-BF8B-0C0109D0F195}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WebApplication.vsmdi = WebApplication.vsmdi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1FA0D654-DE76-4711-ABC8-7D26050255BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentProcessing", "DocumentProcessing", "{C69BBEAD-57C7-439C-88A9-AED3D890482A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "..\..\Presentation\WebApplication\WebApplication.csproj", "{B463FC48-9DF0-4D62-8F02-B51064C3D03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessServices", "..\..\Framework\BusinessServices\BusinessServices.csproj", "{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainObjects", "..\..\Framework\DomainObjects\DomainObjects.csproj", "{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkUnitTesting", "..\..\UnitTesting\FrameworkUnitTesting\FrameworkUnitTesting.csproj", "{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentProcessing", "..\..\Services\DocumentProcessing\DocumentProcessing.csproj", "{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B}.Release|x86.ActiveCfg = Release|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3}.Release|x86.ActiveCfg = Release|Any CPU
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Debug|x86.ActiveCfg = Debug|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Debug|x86.Build.0 = Debug|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Release|Any CPU.ActiveCfg = Release|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Release|x86.ActiveCfg = Release|x86
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6378B1B-1CF6-4D49-BF8B-0C0109D0F195} = {213AE7CA-2176-4409-B4BA-3C8545C539C1}
+		{C69BBEAD-57C7-439C-88A9-AED3D890482A} = {1FA0D654-DE76-4711-ABC8-7D26050255BD}
+		{B463FC48-9DF0-4D62-8F02-B51064C3D03C} = {89AFA978-18C7-4AC1-81CF-4983EB18EE20}
+		{A99E0C3F-C4C9-440F-892D-580AD5F0FB5B} = {346DC3B8-36B3-4FD7-9E80-12ECE2457E9E}
+		{01F5047C-7A6D-4916-ABBA-9BD0AAF01688} = {346DC3B8-36B3-4FD7-9E80-12ECE2457E9E}
+		{EB3A37E5-21CE-4394-84F7-2BCBA776F4F3} = {213AE7CA-2176-4409-B4BA-3C8545C539C1}
+		{9658A43C-5A68-4763-9F4D-F6C72DCC9D1C} = {C69BBEAD-57C7-439C-88A9-AED3D890482A}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WebApplication.vsmdi
+	EndGlobalSection
+EndGlobal
